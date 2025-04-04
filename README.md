@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Snake Game
 
-## Getting Started
+A classic Snake game built with Next.js, TypeScript, and Tailwind CSS. Control the snake, eat the food, and try to achieve the highest score without hitting the walls or yourself!
 
-First, run the development server:
+## Features
 
+- Smooth snake movement
+- Score tracking
+- Game over detection
+- Restart functionality
+- Responsive design
+- Arrow key controls
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Node.js (version 14.0 or higher)
+- npm (Node Package Manager)
+
+## Installation
+
+1. Clone the repository or download the source code
+
+2. Navigate to the project directory:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd snake
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Install the dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Running the Game
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Start the development server:
+```bash
+npm run dev
+```
 
-## Learn More
+2. Open your browser and navigate to `http://localhost:3000`
 
-To learn more about Next.js, take a look at the following resources:
+## How to Play
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Use the Arrow keys to control the snake's direction:
+  - ↑ (Up Arrow): Move Up
+  - ↓ (Down Arrow): Move Down
+  - ← (Left Arrow): Move Left
+  - → (Right Arrow): Move Right
+- Eat the red food blocks to grow and increase your score
+- Avoid hitting the walls or the snake's own body
+- When game over, click "Play Again" to restart
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- Next.js 13+
+- TypeScript
+- Tailwind CSS
+- HTML5 Canvas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To run the project in development mode with hot-reload:
+```bash
+npm run dev
+```
+
+To build the project for production:
+```bash
+npm run build
+```
+
+To start the production server:
+```bash
+npm start
+```
